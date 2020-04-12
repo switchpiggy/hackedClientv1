@@ -1,0 +1,13 @@
+#gradle
+build/
+.gradle/
+
+#idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+#run and launch
+run/
+*.launch
