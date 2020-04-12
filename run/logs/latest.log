@@ -1,15 +1,14 @@
-[23:33:47] [Client thread/INFO]: Setting user: Player501
-[23:33:50] [Client thread/WARN]: Skipping bad option: lastServer:
-[23:33:50] [Client thread/INFO]: LWJGL Version: 2.9.4
-[23:33:51] [Client thread/INFO]: Reloading ResourceManager: Default
-[23:33:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[23:33:52] [Thread-3/INFO]: Initializing LWJGL OpenAL
-[23:33:52] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:33:52] [Thread-3/INFO]: OpenAL initialized.
-[23:33:52] [Sound Library Loader/INFO]: Sound engine started
-[23:33:55] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[23:33:57] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[23:33:58] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[23:34:05] [Client thread/INFO]: Stopping!
-[23:34:05] [Client thread/INFO]: SoundSystem shutting down...
-[23:34:05] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[11:35:54] [Client thread/WARN]: Skipping bad option: lastServer:
+[11:35:55] [Client thread/INFO]: LWJGL Version: 2.9.4
+[11:35:55] [Client thread/INFO]: Reloading ResourceManager: Default
+[11:35:56] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[11:35:56] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[11:35:56] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:35:56] [Thread-3/INFO]: OpenAL initialized.
+[11:35:56] [Sound Library Loader/INFO]: Sound engine started
+[11:35:58] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[11:35:59] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[11:36:00] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[11:36:10] [Client thread/INFO]: Stopping!
+[11:36:10] [Client thread/INFO]: SoundSystem shutting down...
+[11:36:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

@@ -1,5 +1,6 @@
 package net.minecraft.client;
 
+import net.clientv1.client;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Queues;
 import com.google.common.collect.Sets;
@@ -603,6 +604,8 @@ public class Minecraft implements IThreadListener, ISnooperInfo
         this.checkGLError("Post startup");
         this.ingameGUI = new GuiIngame(this);
 
+        client.initializeClient();
+
         if (this.serverName != null)
         {
             this.displayGuiScreen(new GuiConnecting(new GuiMainMenu(), this, this.serverName, this.serverPort));
@@ -684,7 +687,7 @@ public class Minecraft implements IThreadListener, ISnooperInfo
     private void createDisplay() throws LWJGLException
     {
         Display.setResizable(true);
-        Display.setTitle("Minecraft 1.12");
+        Display.setTitle("Loading " + client.name);
 
         try
         {
@@ -2058,6 +2061,9 @@ public class Minecraft implements IThreadListener, ISnooperInfo
 
                 if (this.currentScreen == null)
                 {
+
+                    client.pressedKey(i);
+
                     if (i == 1)
                     {
                         this.displayInGameMenu();
