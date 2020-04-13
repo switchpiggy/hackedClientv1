@@ -4,12 +4,12 @@ public class module {
     public String name;
     public boolean initialized;
     public int keyCode;
-    public type type;
+    public static type type;
 
     public module(String name, int key, type t) {
         this.name = name;
         this.keyCode = key;
-        this.type = t;
+        type = t;
     }
 
     public boolean isInitialized() {
@@ -34,6 +34,10 @@ public class module {
     }
 
     public void onUninitialized() {
+
+    }
+
+    public void onUpdate() {
 
     }
 

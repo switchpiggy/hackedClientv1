@@ -16,8 +16,6 @@ public class client {
         modules.add(new FlyHack());
     }
 
-
-
     public static void pressedKey(int key) {
         for(module m : modules) {
             if(m.getKey() == key) {

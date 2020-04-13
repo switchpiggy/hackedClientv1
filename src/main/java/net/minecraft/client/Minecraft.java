@@ -2064,8 +2064,7 @@ public class Minecraft implements IThreadListener, ISnooperInfo
 
                     client.pressedKey(i);
 
-                    if (i == 1)
-                    {
+                    if (i == 1)                    {
                         this.displayInGameMenu();
                     }
 
