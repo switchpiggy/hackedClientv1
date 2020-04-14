@@ -1,7 +1,6 @@
 package net.clientv1;
 
-import com.sun.org.apache.xerces.internal.impl.xpath.XPath;
-import net.clientv1.modules.step;
+import net.clientv1.modules.*;
 
 import java.lang.reflect.Field;
 import java.util.Collection;
@@ -12,6 +11,10 @@ public class moduleManager {
     private final TreeMap<String, module> modules = new TreeMap<>();
 
     public final step step = new step();
+    public final noFallHack noFallHack = new noFallHack();
+    public final autoHealHack autoHealHack = new autoHealHack();
+    public final sneakHack sneakHack = new sneakHack();
+    public final fullBrightHack fullBrightHack = new fullBrightHack();
 
     public moduleManager() {
         try {
