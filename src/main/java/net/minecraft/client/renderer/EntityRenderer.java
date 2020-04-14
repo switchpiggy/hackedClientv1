@@ -12,6 +12,8 @@ import java.util.List;
 import java.util.Random;
 import javax.annotation.Nullable;
 import javax.imageio.ImageIO;
+
+import net.clientv1.events.Render3DEvent;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBed;
 import net.minecraft.block.material.Material;
@@ -1484,6 +1486,10 @@ public class EntityRenderer implements IResourceManagerReloadListener
         }
 
         this.mc.mcProfiler.endStartSection("hand");
+
+        //TODO: Client
+        Render3DEvent render3DEvent = new Render3DEvent(partialTicks);
+        render3DEvent.call();
 
         if (this.renderHand)
         {

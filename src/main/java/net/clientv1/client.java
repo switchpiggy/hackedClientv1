@@ -1,6 +1,10 @@
 package net.clientv1;
 
+import net.clientv1.event.EventManager;
+import net.clientv1.event.EventTarget;
+import net.clientv1.events.keyboardEvent;
 import net.clientv1.modules.FlyHack;
+import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.Display;
 
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -8,19 +12,29 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class client {
 
     public static String name = "client", version = "v1";
-    public static CopyOnWriteArrayList<module> modules = new CopyOnWriteArrayList<module>();
 
-    public static void initializeClient() {
+    public static final client INSTANCE = new client();
+
+    public final moduleManager MODULE_MANAGER = new moduleManager();
+
+    public void initializeClient() {
         System.out.println("Starting" + name + " " + version);
         Display.setTitle(name + " " + version);
-        modules.add(new FlyHack());
+        EventManager.register(this);
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> endClient()));
     }
 
-    public static void pressedKey(int key) {
-        for(module m : modules) {
-            if(m.getKey() == key) {
-                m.initialize();
+    public void endClient() {
+
+    }
+
+    @EventTarget
+    private void keyboardEvent(keyboardEvent keyboardEvent) {
+        for(module module : client.INSTANCE.MODULE_MANAGER.getAllModules()) {
+            if(Keyboard.getEventKey() == module.getKeyCode()) {
+                module.toggle();
             }
         }
     }
+
 }

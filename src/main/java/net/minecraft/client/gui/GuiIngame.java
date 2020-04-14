@@ -10,6 +10,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import javax.annotation.Nullable;
+
+import net.clientv1.events.Render2DEvent;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.chat.IChatListener;
@@ -390,6 +392,13 @@ public class GuiIngame extends Gui
         GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
         GlStateManager.disableLighting();
         GlStateManager.enableAlpha();
+
+        //TODO: Client
+        GlStateManager.pushMatrix();
+        final ScaledResolution scaledResolution = new ScaledResolution(this.mc);
+        Render2DEvent render2DEvent = new Render2DEvent(scaledResolution.getScaledWidth(), scaledResolution.getScaledHeight());
+        render2DEvent.call();
+        GlStateManager.popMatrix();
     }
 
     private void renderAttackIndicator(float p_184045_1_, ScaledResolution p_184045_2_)

@@ -1,42 +1,55 @@
-[12:55:53] [Client thread/INFO]: Setting user: Player531
-[12:55:54] [Client thread/WARN]: Skipping bad option: lastServer:
-[12:55:54] [Client thread/INFO]: LWJGL Version: 2.9.4
-[12:55:55] [Client thread/INFO]: Reloading ResourceManager: Default
-[12:55:56] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:55:56] [Thread-3/INFO]: Initializing LWJGL OpenAL
-[12:55:56] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:55:56] [Thread-3/INFO]: OpenAL initialized.
-[12:55:56] [Sound Library Loader/INFO]: Sound engine started
-[12:55:59] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[12:56:00] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[12:56:00] [Client thread/INFO]: [STDOUT]: Startingclient v1
-[12:56:01] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[12:56:45] [Server thread/INFO]: Starting integrated minecraft server version 1.12
-[12:56:45] [Server thread/INFO]: Generating keypair
-[12:56:46] [Server thread/INFO]: Loaded 488 advancements
-[12:56:46] [Server thread/INFO]: Preparing start region for level 0
-[12:56:47] [Server thread/INFO]: Changing view distance to 12, from 10
-[12:56:48] [Server thread/INFO]: Player531[local:E:2f21ad79] logged in with entity id 362 at (265.7521410270016, 70.0, 237.41770546971662)
-[12:56:48] [Server thread/INFO]: Player531 joined the game
-[12:56:48] [Server thread/INFO]: Saving and pausing game...
-[12:56:48] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[12:56:48] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[12:56:48] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[12:56:48] [Client thread/INFO]: Loaded 2 advancements
-[12:57:23] [Client thread/INFO]: Loaded 13 advancements
-[12:58:08] [Server thread/INFO]: Saving and pausing game...
-[12:58:08] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[12:58:08] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[12:58:08] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[12:58:09] [Server thread/INFO]: Stopping server
-[12:58:09] [Server thread/INFO]: Saving players
-[12:58:09] [Server thread/INFO]: Player531 lost connection: Disconnected
-[12:58:09] [Server thread/INFO]: Player531 left the game
-[12:58:09] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[12:58:09] [Server thread/INFO]: Saving worlds
-[12:58:09] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[12:58:09] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[12:58:09] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[12:58:09] [Client thread/INFO]: Stopping!
-[12:58:09] [Client thread/INFO]: SoundSystem shutting down...
-[12:58:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:52:25] [Client thread/INFO]: Setting user: Player928
+[12:52:26] [Client thread/WARN]: Skipping bad option: lastServer:
+[12:52:26] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:52:26] [Client thread/INFO]: [STDOUT]: step
+[12:52:26] [Client thread/INFO]: Reloading ResourceManager: Default
+[12:52:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:52:27] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[12:52:27] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:52:28] [Thread-3/INFO]: OpenAL initialized.
+[12:52:28] [Sound Library Loader/INFO]: Sound engine started
+[12:52:30] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[12:52:31] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[12:52:31] [Client thread/INFO]: [STDOUT]: Startingclient v1
+[12:52:32] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[12:52:34] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[12:52:34] [Server thread/INFO]: Generating keypair
+[12:52:34] [Server thread/INFO]: Loaded 488 advancements
+[12:52:34] [Server thread/INFO]: Preparing start region for level 0
+[12:52:35] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:52:36] [Server thread/INFO]: Player928[local:E:9f1ee879] logged in with entity id 331 at (275.2432080475277, 80.0, 387.65350508252106)
+[12:52:36] [Server thread/INFO]: Player928 joined the game
+[12:52:37] [Server thread/INFO]: Saving and pausing game...
+[12:52:37] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
+[12:52:37] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
+[12:52:37] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
+[12:53:10] [Server thread/INFO]: Saving and pausing game...
+[12:53:10] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
+[12:53:10] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
+[12:53:10] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
+[12:53:11] [Server thread/INFO]: Stopping server
+[12:53:11] [Server thread/INFO]: Saving players
+[12:53:11] [File IO Thread/INFO]: [STDERR]: java.io.IOException: Stream Closed
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at java.io.RandomAccessFile.seek0(Native Method)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at java.io.RandomAccessFile.seek(RandomAccessFile.java:557)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:285)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:203)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:360)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:241)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkData(AnvilChunkLoader.java:204)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:181)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35)
+[12:53:11] [File IO Thread/INFO]: [STDERR]: 	at java.lang.Thread.run(Thread.java:748)
+[12:53:11] [Server thread/INFO]: Player928 lost connection: Disconnected
+[12:53:11] [Server thread/INFO]: Player928 left the game
+[12:53:11] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[12:53:11] [Server thread/INFO]: Saving worlds
+[12:53:11] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
+[12:53:11] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
+[12:53:11] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
+[12:53:15] [Client thread/INFO]: Stopping!
+[12:53:15] [Client thread/INFO]: SoundSystem shutting down...
+[12:53:15] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

@@ -2,6 +2,10 @@ package net.minecraft.client.entity;
 
 import java.util.List;
 import javax.annotation.Nullable;
+
+import net.clientv1.events.eventUpdate;
+import net.clientv1.events.postMotionUpdateEvent;
+import net.clientv1.events.preMotionUpdateEvent;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.ElytraSound;
@@ -231,7 +235,9 @@ public class EntityPlayerSP extends AbstractClientPlayer
     {
         if (this.world.isBlockLoaded(new BlockPos(this.posX, 0.0D, this.posZ)))
         {
-
+            //TODO: Client
+            eventUpdate eventUpdate = new eventUpdate();
+            eventUpdate.call();
             super.onUpdate();
 
             if (this.isRiding())
@@ -247,7 +253,13 @@ public class EntityPlayerSP extends AbstractClientPlayer
             }
             else
             {
+                //TODO: Client
+                preMotionUpdateEvent preMotionUpdateEvent = new preMotionUpdateEvent(this.rotationYaw, this.rotationPitch, this.posY);
+                preMotionUpdateEvent.call();
                 this.onUpdateWalkingPlayer();
+                //TODO: Client
+                postMotionUpdateEvent postMotionUpdateEvent = new postMotionUpdateEvent(this.rotationYaw, this.rotationPitch, this.onGround, this.posY);
+                postMotionUpdateEvent.call();
             }
         }
     }

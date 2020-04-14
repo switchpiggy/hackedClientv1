@@ -42,6 +42,10 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import javax.annotation.Nullable;
 import javax.imageio.ImageIO;
+
+import net.clientv1.events.keyboardEvent;
+import net.clientv1.events.middleClickEvent;
+import net.clientv1.events.tickEvent;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -604,7 +608,7 @@ public class Minecraft implements IThreadListener, ISnooperInfo
         this.checkGLError("Post startup");
         this.ingameGUI = new GuiIngame(this);
 
-        client.initializeClient();
+        client.INSTANCE.initializeClient();
 
         if (this.serverName != null)
         {
@@ -1808,6 +1812,10 @@ public class Minecraft implements IThreadListener, ISnooperInfo
      */
     public void runTick() throws IOException
     {
+        //TODO: Client
+        tickEvent tickEvent = new tickEvent();
+        tickEvent.call();
+
         if (this.rightClickDelayTimer > 0)
         {
             --this.rightClickDelayTimer;
@@ -2059,10 +2067,13 @@ public class Minecraft implements IThreadListener, ISnooperInfo
 
                 boolean flag1 = false;
 
+                //TODO: Client
+                keyboardEvent keyboardEvent = new keyboardEvent(i);
+                keyboardEvent.call();
+
                 if (this.currentScreen == null)
                 {
 
-                    client.pressedKey(i);
 
                     if (i == 1)                    {
                         this.displayInGameMenu();
@@ -2692,6 +2703,10 @@ public class Minecraft implements IThreadListener, ISnooperInfo
     {
         if (this.objectMouseOver != null && this.objectMouseOver.typeOfHit != RayTraceResult.Type.MISS)
         {
+            //TODO: Client
+            middleClickEvent middleClickEvent = new middleClickEvent();
+            middleClickEvent.call();
+
             boolean flag = this.player.capabilities.isCreativeMode;
             TileEntity tileentity = null;
             ItemStack itemstack;
