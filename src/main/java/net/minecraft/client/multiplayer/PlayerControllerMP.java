@@ -74,6 +74,9 @@ public class PlayerControllerMP
     /** Current game type for the player */
     private GameType currentGameType = GameType.SURVIVAL;
 
+    /** Sets custom reach distance */
+    public static float reachDist = 4.5F;
+
     /** Index of the current item held by the player in the inventory hotbar */
     private int currentPlayerItem;
 
@@ -361,9 +364,13 @@ public class PlayerControllerMP
     /**
      * player reach distance = 4F
      */
+    public static void setExtendedReach(boolean extended) {
+        reachDist = extended ? 50.0F : 4.5F;
+    }
+
     public float getBlockReachDistance()
     {
-        return this.currentGameType.isCreative() ? 5.0F : 4.5F;
+        return this.currentGameType.isCreative() ? 5.0F : reachDist;
     }
 
     public void updateController()

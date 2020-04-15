@@ -15,6 +15,7 @@ public class moduleManager {
     public final autoHealHack autoHealHack = new autoHealHack();
     public final sneakHack sneakHack = new sneakHack();
     public final fullBrightHack fullBrightHack = new fullBrightHack();
+    public final reachHack reachHack = new reachHack();
 
     public moduleManager() {
         try {
