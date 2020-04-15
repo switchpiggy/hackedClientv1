@@ -1,45 +1,21 @@
-[16:10:06] [Client thread/INFO]: Setting user: Player469
-[16:10:07] [Client thread/WARN]: Skipping bad option: lastServer:
-[16:10:07] [Client thread/INFO]: LWJGL Version: 2.9.4
-[16:10:07] [Client thread/INFO]: [STDOUT]: step
-[16:10:07] [Client thread/INFO]: [STDOUT]: noFall
-[16:10:07] [Client thread/INFO]: [STDOUT]: autoHeal
-[16:10:07] [Client thread/INFO]: [STDOUT]: sneakHack
-[16:10:07] [Client thread/INFO]: [STDOUT]: fullBrightHack
-[16:10:08] [Client thread/INFO]: Reloading ResourceManager: Default
-[16:10:09] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[16:10:09] [Thread-3/INFO]: Initializing LWJGL OpenAL
-[16:10:09] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:10:09] [Thread-3/INFO]: OpenAL initialized.
-[16:10:09] [Sound Library Loader/INFO]: Sound engine started
-[16:10:11] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[16:10:13] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[16:10:13] [Client thread/INFO]: [STDOUT]: Startingclient v1
-[16:10:14] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[16:10:14] [Server thread/INFO]: Starting integrated minecraft server version 1.12
-[16:10:15] [Server thread/INFO]: Generating keypair
-[16:10:15] [Server thread/INFO]: Loaded 488 advancements
-[16:10:15] [Server thread/INFO]: Preparing start region for level 0
-[16:10:16] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:10:17] [Server thread/INFO]: Player469[local:E:2b19c479] logged in with entity id 288 at (-175.48564159411282, 64.0, 173.7096235618522)
-[16:10:17] [Server thread/INFO]: Player469 joined the game
-[16:10:18] [Server thread/INFO]: Saving and pausing game...
-[16:10:18] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[16:10:18] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[16:10:18] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[16:10:28] [Server thread/INFO]: Saving and pausing game...
-[16:10:28] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[16:10:28] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[16:10:28] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[16:10:29] [Server thread/INFO]: Stopping server
-[16:10:29] [Server thread/INFO]: Saving players
-[16:10:29] [Server thread/INFO]: Player469 lost connection: Disconnected
-[16:10:29] [Server thread/INFO]: Player469 left the game
-[16:10:29] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[16:10:29] [Server thread/INFO]: Saving worlds
-[16:10:29] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[16:10:29] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[16:10:29] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[16:11:06] [Client thread/INFO]: Stopping!
-[16:11:06] [Client thread/INFO]: SoundSystem shutting down...
-[16:11:06] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:07:09] [Client thread/INFO]: Setting user: Player900
+[19:07:11] [Client thread/WARN]: Skipping bad option: lastServer:
+[19:07:11] [Client thread/INFO]: LWJGL Version: 2.9.4
+[19:07:11] [Client thread/INFO]: [STDOUT]: step
+[19:07:11] [Client thread/INFO]: [STDOUT]: noFall
+[19:07:11] [Client thread/INFO]: [STDOUT]: autoHeal
+[19:07:11] [Client thread/INFO]: [STDOUT]: sneakHack
+[19:07:11] [Client thread/INFO]: [STDOUT]: fullBrightHack
+[19:07:12] [Client thread/INFO]: Reloading ResourceManager: Default
+[19:07:13] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:07:13] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[19:07:13] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:07:13] [Thread-3/INFO]: OpenAL initialized.
+[19:07:13] [Sound Library Loader/INFO]: Sound engine started
+[19:07:17] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[19:07:19] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[19:07:19] [Client thread/INFO]: [STDOUT]: Startingclient v1
+[19:07:20] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[19:08:06] [Client thread/INFO]: Stopping!
+[19:08:06] [Client thread/INFO]: SoundSystem shutting down...
+[19:08:06] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
