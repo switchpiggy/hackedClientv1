@@ -7,7 +7,7 @@ import net.minecraft.client.multiplayer.PlayerControllerMP;
 import net.minecraft.server.management.PlayerInteractionManager;
 import org.lwjgl.input.Keyboard;
 
-@module.ModInfo(name = "reachHack", description = "Allows players to hit others from further away.", type = module.type.COMBAT, keyCode = Keyboard.KEY_R)
+@module.ModInfo(name = "reachHack", description = "Allows players to hit entities and interact with blocks from further away.", type = module.type.COMBAT, keyCode = Keyboard.KEY_R)
 
 public class reachHack extends module {
     public void onInitialized() {

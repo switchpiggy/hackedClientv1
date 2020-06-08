@@ -1,59 +1,42 @@
-[11:23:17] [Client thread/INFO]: Setting user: Player641
-[11:23:19] [Client thread/WARN]: Skipping bad option: lastServer:
-[11:23:19] [Client thread/INFO]: LWJGL Version: 2.9.4
-[11:23:19] [Client thread/INFO]: [STDOUT]: step
-[11:23:19] [Client thread/INFO]: [STDOUT]: noFall
-[11:23:19] [Client thread/INFO]: [STDOUT]: autoHeal
-[11:23:19] [Client thread/INFO]: [STDOUT]: sneakHack
-[11:23:19] [Client thread/INFO]: [STDOUT]: fullBrightHack
-[11:23:19] [Client thread/INFO]: [STDOUT]: reachHack
-[11:23:19] [Client thread/INFO]: Reloading ResourceManager: Default
-[11:23:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[11:23:20] [Thread-3/INFO]: Initializing LWJGL OpenAL
-[11:23:20] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[11:23:20] [Thread-3/INFO]: OpenAL initialized.
-[11:23:20] [Sound Library Loader/INFO]: Sound engine started
-[11:23:23] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[11:23:24] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[11:23:24] [Client thread/INFO]: [STDOUT]: Startingclient v1
-[11:23:25] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[11:29:28] [Server thread/INFO]: Starting integrated minecraft server version 1.12
-[11:29:28] [Server thread/INFO]: Generating keypair
-[11:29:29] [Server thread/INFO]: Loaded 488 advancements
-[11:29:29] [Server thread/INFO]: Preparing start region for level 0
-[11:29:30] [Server thread/INFO]: Changing view distance to 12, from 10
-[11:29:31] [Server thread/INFO]: Player641[local:E:1860c6c4] logged in with entity id 294 at (-108.5827527728462, 70.0, 161.59634868563785)
-[11:29:31] [Server thread/INFO]: Player641 joined the game
-[11:29:31] [Server thread/INFO]: Saving and pausing game...
-[11:29:31] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[11:29:31] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[11:29:31] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[11:30:00] [Client thread/INFO]: Loaded 7 advancements
-[11:30:07] [Server thread/INFO]: Saving and pausing game...
-[11:30:07] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[11:30:07] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[11:30:07] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[11:40:18] [Server thread/INFO]: Saving and pausing game...
-[11:40:18] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[11:40:18] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[11:40:18] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[11:40:50] [Server thread/INFO]: Saving and pausing game...
-[11:40:50] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[11:40:50] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[11:40:50] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[11:50:46] [Server thread/INFO]: Saving and pausing game...
-[11:50:46] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[11:50:46] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[11:50:46] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[13:15:19] [Server thread/INFO]: Stopping server
-[13:15:19] [Server thread/INFO]: Saving players
-[13:15:19] [Server thread/INFO]: Player641 lost connection: Disconnected
-[13:15:19] [Server thread/INFO]: Player641 left the game
-[13:15:19] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[13:15:19] [Server thread/INFO]: Saving worlds
-[13:15:19] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
-[13:15:19] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
-[13:15:19] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
-[13:15:20] [Client thread/INFO]: Stopping!
-[13:15:20] [Client thread/INFO]: SoundSystem shutting down...
-[13:15:20] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:25:25] [Client thread/INFO]: Setting user: Player81
+[12:25:26] [Client thread/WARN]: Skipping bad option: lastServer:
+[12:25:26] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:25:26] [Client thread/INFO]: [STDOUT]: step
+[12:25:26] [Client thread/INFO]: [STDOUT]: noFall
+[12:25:26] [Client thread/INFO]: [STDOUT]: autoHeal
+[12:25:26] [Client thread/INFO]: [STDOUT]: sneakHack
+[12:25:26] [Client thread/INFO]: [STDOUT]: fullBrightHack
+[12:25:26] [Client thread/INFO]: [STDOUT]: reachHack
+[12:25:27] [Client thread/INFO]: Reloading ResourceManager: Default
+[12:25:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:25:28] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[12:25:28] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:25:28] [Thread-3/INFO]: OpenAL initialized.
+[12:25:28] [Sound Library Loader/INFO]: Sound engine started
+[12:25:30] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[12:25:31] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[12:25:31] [Client thread/INFO]: [STDOUT]: Startingclient v1
+[12:25:32] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[12:25:33] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[12:25:33] [Server thread/INFO]: Generating keypair
+[12:25:34] [Server thread/INFO]: Loaded 488 advancements
+[12:25:34] [Server thread/INFO]: Preparing start region for level 0
+[12:25:34] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:25:35] [Server thread/INFO]: Player81[local:E:6964dcda] logged in with entity id 250 at (2.4288672379691407, 74.0, 66.85930507066432)
+[12:25:35] [Server thread/INFO]: Player81 joined the game
+[12:26:05] [Server thread/INFO]: Saving and pausing game...
+[12:26:05] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
+[12:26:05] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
+[12:26:05] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
+[12:26:06] [Server thread/INFO]: Stopping server
+[12:26:06] [Server thread/INFO]: Saving players
+[12:26:06] [Server thread/INFO]: Player81 lost connection: Disconnected
+[12:26:06] [Server thread/INFO]: Player81 left the game
+[12:26:06] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[12:26:06] [Server thread/INFO]: Saving worlds
+[12:26:06] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/overworld
+[12:26:06] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_nether
+[12:26:06] [Server thread/INFO]: Saving chunks for level 'Client Dev Test World'/the_end
+[12:26:07] [Client thread/INFO]: Stopping!
+[12:26:07] [Client thread/INFO]: SoundSystem shutting down...
+[12:26:07] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
